@@ -1,14 +1,3 @@
-requirements.txt
-----------------
-**ultralytics==8.1.28**  
-**opencv-python**  
-**matplotlib**  
-**Pillow**
-
-
-README.md
----------
-
 # **_Bottle Quality Control using YOLOv8_**
 
 This project uses a **YOLOv8 object detection model** to analyze video footage from a juice/bottle production line and classify the liquid levels in bottles as:
