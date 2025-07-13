@@ -16,6 +16,9 @@ Optionally, it also detects:
 - Beautified bounding boxes and smart label placement using OpenCV
 - Output video with annotated predictions
 
+
+<img width="1722" height="993" alt="image" src="https://github.com/user-attachments/assets/1af45316-8a8e-4fe1-a589-c6f6e92fd36d" />
+
 ## **_How to Use_**
 
 ### _Google Colab_
