@@ -1,3 +1,14 @@
+requirements.txt
+----------------
+**ultralytics==8.1.28**  
+**opencv-python**  
+**matplotlib**  
+**Pillow**
+
+
+README.md
+---------
+
 # **_Bottle Quality Control using YOLOv8_**
 
 This project uses a **YOLOv8 object detection model** to analyze video footage from a juice/bottle production line and classify the liquid levels in bottles as:
@@ -16,15 +27,15 @@ Optionally, it also detects:
 - Beautified bounding boxes and smart label placement using OpenCV
 - Output video with annotated predictions
 
-
 ## **_How to Use_**
 
 ### _Google Colab_
 
-1. Upload your `.avi` input video and `best.pt` weights file  
+1. Upload your `.avi` input video and your own trained weights file (e.g., `best.pt`)  
 2. Open and run `inference.ipynb`  
-3. The output video will be saved and automatically downloaded as `beautiful_output.mp4`
+3. The output video will be saved and automatically downloaded as `output.mp4`
 
+> **Note:** The trained weights file (`best.pt`) is not included in this repository. You can train your own using the instructions below or download from your own training output.
 
 ## **_Training a YOLOv8 Model_**
 
@@ -50,5 +61,3 @@ The dataset was exported in **YOLOv8 format** and referenced in `data/data.yaml`
 
 - [YOLOv8 Documentation](https://docs.ultralytics.com/)
 - [Roboflow](https://roboflow.com)
-
-
